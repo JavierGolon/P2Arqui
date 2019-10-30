@@ -26,7 +26,7 @@ router.post('/PostFrases',(req,res)=>{
 });
 
 // METODO ELIMINAR  para agregar params es :id
-router.delete('/DeletePrueba',(req,res)=>{
+/*router.delete('/DeletePrueba',(req,res)=>{
     const{id}=req.params;
     _.each(frases,(frase,i)=>{
         if(frases.id==id){
@@ -37,7 +37,7 @@ router.delete('/DeletePrueba',(req,res)=>{
    res.send(frases); 
 
 });
-
+*/
 
 
 
