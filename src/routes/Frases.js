@@ -14,7 +14,7 @@ router.get('/GetFrases',(req,res)=>{
 });
 
 //METODO POST
-router.post('/PostFrases',(req,res)=>{
+/*router.post('/PostFrases',(req,res)=>{
     const{Tipo,Contenido} = req.body;
     if(Tipo&&Contenido){
         const newData = {...req.body};
@@ -23,7 +23,7 @@ router.post('/PostFrases',(req,res)=>{
     }else{
         res.status(500).json({error:'Ther Was an Error.'});
     }
-});
+});*/
 
 // METODO ELIMINAR  para agregar params es :id
 /*router.delete('/DeletePrueba',(req,res)=>{
